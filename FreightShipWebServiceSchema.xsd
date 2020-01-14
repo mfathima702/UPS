@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <xsd:schema targetNamespace="http://www.ups.com/XMLSchema/XOLTWS/FreightShip/v1.0" xmlns:ups="http://www.ups.com/XMLSchema" xmlns:fsp="http://www.ups.com/XMLSchema/XOLTWS/FreightShip/v1.0" xmlns:common="http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0" xmlns:IF="http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" version="201901">
-	<xsd:import namespace="http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0" schemaLocation="https://raw.githubusercontent.com/bavnick/ups/master/common.xsd"/>
-	<xsd:import namespace="http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0" schemaLocation="https://raw.githubusercontent.com/bavnick/ups/master/IFWS.xsd"/>
+	<xsd:import namespace="http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0" schemaLocation="https://raw.githubusercontent.com/mfathima702/UPS/master/common.xsd"/>
+	<xsd:import namespace="http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0" schemaLocation="https://raw.githubusercontent.com/mfathima702/UPS/master/IFWS.xsd"/>
 	<xsd:element name="FreightShipRequest">
 		<xsd:complexType>
 			<xsd:sequence>
